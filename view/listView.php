@@ -18,7 +18,7 @@
             foreach ($posts as $post){ ?>
               <h2><?=$post['title']?>
               <small>
-                <a href="showController.php?id=<?=$post['id']?>">Voir l'article </a>
+                <a href="frontController.php/show?id=<?=$post['id']?>">Voir l'article </a>
               </small></h2>
               
             <?php 
